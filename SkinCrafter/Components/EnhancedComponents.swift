@@ -71,6 +71,10 @@ struct EnhancedSkinCanvas: View {
                         miniMap(containerSize: geometry.size)
                             .padding(8)
                             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                        // Clickable labels near regions
+                        labelOverlay(containerSize: geometry.size)
+                            .padding(.top, 30)
+                            .frame(maxWidth: .infinity, alignment: .top)
                         .gesture(
                             DragGesture()
                                 .onChanged { value in
@@ -78,6 +82,14 @@ struct EnhancedSkinCanvas: View {
                                 }
                                 .onEnded { _ in
                                     undoManager.recordState(skinManager.currentSkin)
+                                }
+                        )
+                        .simultaneousGesture(
+                            MagnificationGesture()
+                                .onChanged { scale in
+                                    // Smooth zoom around center
+                                    let newZoom = max(0.5, min(8.0, scale))
+                                    currentZoom = newZoom
                                 }
                         )
                     }
@@ -494,6 +506,35 @@ extension EnhancedSkinCanvas {
         let img = UIGraphicsGetImageFromCurrentImageContext() ?? UIImage()
         UIGraphicsEndImageContext()
         return img
+    }
+
+    // MARK: - Clickable Region Labels
+    fileprivate func labelOverlay(containerSize: CGSize) -> some View {
+        let pixelSize = 10 * currentZoom
+        return ZStack {
+            ForEach([BodyPart.head, .body, .rightArm, .leftArm, .rightLeg, .leftLeg], id: \.self) { part in
+                let region = part.getRegion()
+                let rect = CGRect(
+                    x: CGFloat(region.x.lowerBound) * pixelSize,
+                    y: CGFloat(region.y.lowerBound) * pixelSize,
+                    width: CGFloat(region.x.count) * pixelSize,
+                    height: CGFloat(region.y.count) * pixelSize
+                )
+                Button(action: {
+                    gridSystem.isolatedParts = [part]
+                    focusOn(part: part, containerSize: containerSize)
+                }) {
+                    Text(part.displayName)
+                        .font(.caption2)
+                        .padding(.horizontal, 6)
+                        .padding(.vertical, 2)
+                        .background(.ultraThinMaterial)
+                        .cornerRadius(6)
+                }
+                .position(x: rect.midX, y: max(12, rect.minY - 10))
+            }
+        }
+        .allowsHitTesting(true)
     }
 }
 
