@@ -544,29 +544,50 @@ struct GridOverlay: View {
     
     var body: some View {
         Canvas { context, size in
-            let step = CGFloat(gridSize) * 10
-            
-            // Vertical lines
-            for x in stride(from: 0, through: size.width, by: step) {
+            let px = CGFloat(10)
+            let major = CGFloat(gridSize) * px // typically every 8 pixels
+
+            // Minor grid: every pixel (subtle)
+            for x in stride(from: 0, through: size.width, by: px) {
                 context.stroke(
                     Path { path in
                         path.move(to: CGPoint(x: x, y: 0))
                         path.addLine(to: CGPoint(x: x, y: size.height))
                     },
-                    with: .color(.gray.opacity(0.2)),
-                    lineWidth: 0.5
+                    with: .color(.gray.opacity(0.08)),
+                    lineWidth: 0.3
                 )
             }
-            
-            // Horizontal lines
-            for y in stride(from: 0, through: size.height, by: step) {
+            for y in stride(from: 0, through: size.height, by: px) {
                 context.stroke(
                     Path { path in
                         path.move(to: CGPoint(x: 0, y: y))
                         path.addLine(to: CGPoint(x: size.width, y: y))
                     },
-                    with: .color(.gray.opacity(0.2)),
-                    lineWidth: 0.5
+                    with: .color(.gray.opacity(0.08)),
+                    lineWidth: 0.3
+                )
+            }
+
+            // Major grid: every 8 pixels (stronger)
+            for x in stride(from: 0, through: size.width, by: major) {
+                context.stroke(
+                    Path { path in
+                        path.move(to: CGPoint(x: x, y: 0))
+                        path.addLine(to: CGPoint(x: x, y: size.height))
+                    },
+                    with: .color(.gray.opacity(0.35)),
+                    lineWidth: 0.8
+                )
+            }
+            for y in stride(from: 0, through: size.height, by: major) {
+                context.stroke(
+                    Path { path in
+                        path.move(to: CGPoint(x: 0, y: y))
+                        path.addLine(to: CGPoint(x: size.width, y: y))
+                    },
+                    with: .color(.gray.opacity(0.35)),
+                    lineWidth: 0.8
                 )
             }
         }
