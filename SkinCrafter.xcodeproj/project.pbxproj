@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17FB04CB823C2559EEC81A00 /* ExpressModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821C81C8E0F760C79062C74 /* ExpressModeView.swift */; };
+		1A5D727A3C8D74E077298DC5 /* Enhanced3DEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508E6FF4A1C4E0E41053910 /* Enhanced3DEditingView.swift */; };
+		241626BF89B096D06A54DB27 /* DefaultSkinTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38802767303EBDB584301C04 /* DefaultSkinTemplates.swift */; };
+		35E0B52B8CBE45CF9CC4F581 /* Direct3DPaintableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DDF1EA0B14766283676FD /* Direct3DPaintableView.swift */; };
+		3D4EBC716FDD0958BDA16E2F /* MaximizedCanvasLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE47F92D9AE57A91CEC7E9 /* MaximizedCanvasLayout.swift */; };
+		52708F4260946A66E990C5BA /* FocusedBodyPartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343DED72A50646B112DB11F6 /* FocusedBodyPartView.swift */; };
+		5F92CDF433E0D56312E72861 /* ExpressCreationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63042E646ED0AC256DB1C638 /* ExpressCreationModeView.swift */; };
+		82744A75228D4E4DFAD9CFF3 /* GuidedCreationFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94878ADFC901EF2203CBB41 /* GuidedCreationFlow.swift */; };
+		8685FC3BD18DBE38D1FF40DC /* ExpressExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47FA0767B2DA4F1771E3EAB /* ExpressExportView.swift */; };
+		905F48DC4C180EAC9E208465 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8DB074EED8CBBFB5ED0F3 /* HapticManager.swift */; };
+		91699F47711C2A9718917B04 /* GestureNavigationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A163603879E6FB54EE7F26 /* GestureNavigationSystem.swift */; };
+		93EC45DF9C94D0E90FE1AADB /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7A844E277E6F624BE2110 /* AnalyticsManager.swift */; };
+		9D18ADF0491A49C5F8F2F2EF /* Paintable3DPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E47F645A218D02B860502 /* Paintable3DPreview.swift */; };
+		B41234561234567890ABCDEF /* SkinCrafterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234551234567890ABCDEF /* SkinCrafterApp.swift */; };
+		B41234581234567890ABCDEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234571234567890ABCDEF /* ContentView.swift */; };
+		B412345A1234567890ABCDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41234591234567890ABCDEF /* Assets.xcassets */; };
+		B412345D1234567890ABCDEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B412345C1234567890ABCDEF /* Preview Assets.xcassets */; };
+		B41234601234567890ABCD01 /* MinecraftSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD01 /* MinecraftSkin.swift */; };
+		B41234601234567890ABCD02 /* SkinTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD02 /* SkinTemplates.swift */; };
+		B41234601234567890ABCD03 /* SkinEditorCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD03 /* SkinEditorCanvas.swift */; };
+		B41234601234567890ABCD04 /* Skin3DPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD04 /* Skin3DPreview.swift */; };
+		B41234601234567890ABCD05 /* EnhancedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD05 /* EnhancedComponents.swift */; };
+		B41234601234567890ABCD06 /* ProfessionalEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD06 /* ProfessionalEditorView.swift */; };
+		B41234601234567890ABCD07 /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD07 /* AdManager.swift */; };
+		B41234601234567890ABCD08 /* ExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD08 /* ExportManager.swift */; };
+		B41234601234567890ABCD09 /* EditingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD09 /* EditingSystem.swift */; };
+		B41234601234567890ABCD10 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD10 /* PurchaseManager.swift */; };
+		B41234601234567890ABCD11 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD11 /* LaunchScreen.swift */; };
+		B41234601234567890ABCD12 /* MainEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41234651234567890ABCD12 /* MainEditorView.swift */; };
+		B65E53A138E7506AA923C3E9 /* Direct3DPaintingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D4F499EE3CC0B39321EF3 /* Direct3DPaintingSystem.swift */; };
+		BODYBUILD1234567890ABCD1 /* BodyPartPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BODYPART1234567890ABCD01 /* BodyPartPageControl.swift */; };
+		BODYPBUILD1234567890ABCD1 /* BodyPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BODYP1234567890ABCD01 /* BodyPart.swift */; };
+		C75F84921A2B6E0D8F9E3C47 /* SkinTemplateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B73E856C4F2D7B1028359 /* SkinTemplateSelector.swift */; };
+		CC499756E37C1EBBA445F933 /* ExpressGuidedFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E9371F829356F226F500D /* ExpressGuidedFlow.swift */; };
+		D140C2EB57E9A3A4DE15F047 /* CompactToolSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB50AD8826EB3A7B641A2BE /* CompactToolSystem.swift */; };
+		D22780CD1BA1800E6B87A682 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBDAFB34B3645BB5FFEF430 /* SettingsView.swift */; };
+		DD48CF7462C65540236B176B /* TestPaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F712DEA21BD9E2416155F /* TestPaintView.swift */; };
+		E734DED140BFC232C666DE87 /* SlidingPanelSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217BBF5BF4EA3B772721EBC /* SlidingPanelSystem.swift */; };
+		EE50092CB1DB26BA26BA1E2F /* ModeSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34FBEC8C9A59BCAE3085B5 /* ModeSelectorView.swift */; };
+		F1F334F96D2312EF7D9E8BC5 /* ImprovedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7C4ABE483256FAE8F77A6 /* ImprovedContentView.swift */; };
+		F2E59E014BA32DECBC3E4050 /* StudioModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975F8ECF3BB7B183C503DA2 /* StudioModeView.swift */; };
+		FLOATBUILD1234567890ABC1 /* FloatingToolPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = FLOATING1234567890ABCD01 /* FloatingToolPalette.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01E7A844E277E6F624BE2110 /* AnalyticsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		17A163603879E6FB54EE7F26 /* GestureNavigationSystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GestureNavigationSystem.swift; sourceTree = "<group>"; };
+		1EB50AD8826EB3A7B641A2BE /* CompactToolSystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CompactToolSystem.swift; sourceTree = "<group>"; };
+		2E3D4F499EE3CC0B39321EF3 /* Direct3DPaintingSystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Direct3DPaintingSystem.swift; sourceTree = "<group>"; };
+		343DED72A50646B112DB11F6 /* FocusedBodyPartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FocusedBodyPartView.swift; sourceTree = "<group>"; };
+		386E47F645A218D02B860502 /* Paintable3DPreview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Components/Paintable3DPreview.swift; sourceTree = "<group>"; };
+		38802767303EBDB584301C04 /* DefaultSkinTemplates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultSkinTemplates.swift; sourceTree = "<group>"; };
+		430E9371F829356F226F500D /* ExpressGuidedFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressGuidedFlow.swift; sourceTree = "<group>"; };
+		5217BBF5BF4EA3B772721EBC /* SlidingPanelSystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlidingPanelSystem.swift; sourceTree = "<group>"; };
+		63042E646ED0AC256DB1C638 /* ExpressCreationModeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpressCreationModeView.swift; sourceTree = "<group>"; };
+		6508E6FF4A1C4E0E41053910 /* Enhanced3DEditingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Enhanced3DEditingView.swift; sourceTree = "<group>"; };
+		8ED8DB074EED8CBBFB5ED0F3 /* HapticManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		9AA7C4ABE483256FAE8F77A6 /* ImprovedContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImprovedContentView.swift; sourceTree = "<group>"; };
+		A29F712DEA21BD9E2416155F /* TestPaintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Views/TestPaintView.swift; sourceTree = "<group>"; };
+		A91B73E856C4F2D7B1028359 /* SkinTemplateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTemplateSelector.swift; sourceTree = "<group>"; };
+		B41234521234567890ABCDEF /* SkinCrafter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinCrafter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41234551234567890ABCDEF /* SkinCrafterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinCrafterApp.swift; sourceTree = "<group>"; };
+		B41234571234567890ABCDEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B41234591234567890ABCDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B412345C1234567890ABCDEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B412345E1234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41234651234567890ABCD01 /* MinecraftSkin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinecraftSkin.swift; sourceTree = "<group>"; };
+		B41234651234567890ABCD02 /* SkinTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTemplates.swift; sourceTree = "<group>"; };
+		B41234651234567890ABCD03 /* SkinEditorCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinEditorCanvas.swift; sourceTree = "<group>"; };
+		B41234651234567890ABCD04 /* Skin3DPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skin3DPreview.swift; sourceTree = "<group>"; };
+		B41234651234567890ABCD05 /* EnhancedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedComponents.swift; sourceTree = "<group>"; };
+		B41234651234567890ABCD06 /* ProfessionalEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalEditorView.swift; sourceTree = "<group>"; };
+		B41234651234567890ABCD07 /* AdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdManager.swift; sourceTree = "<group>"; };
+		B41234651234567890ABCD08 /* ExportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportManager.swift; sourceTree = "<group>"; };
+		B41234651234567890ABCD09 /* EditingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingSystem.swift; sourceTree = "<group>"; };
+		B41234651234567890ABCD10 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		B41234651234567890ABCD11 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		B41234651234567890ABCD12 /* MainEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEditorView.swift; sourceTree = "<group>"; };
+		B975F8ECF3BB7B183C503DA2 /* StudioModeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Views/StudioModeView.swift; sourceTree = "<group>"; };
+		BODYP1234567890ABCD01 /* BodyPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPart.swift; sourceTree = "<group>"; };
+		BODYPART1234567890ABCD01 /* BodyPartPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPartPageControl.swift; sourceTree = "<group>"; };
+		E90DDF1EA0B14766283676FD /* Direct3DPaintableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Direct3DPaintableView.swift; sourceTree = "<group>"; };
+		EDBDAFB34B3645BB5FFEF430 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		EF34FBEC8C9A59BCAE3085B5 /* ModeSelectorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Views/ModeSelectorView.swift; sourceTree = "<group>"; };
+		F0BE47F92D9AE57A91CEC7E9 /* MaximizedCanvasLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaximizedCanvasLayout.swift; sourceTree = "<group>"; };
+		F47FA0767B2DA4F1771E3EAB /* ExpressExportView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpressExportView.swift; sourceTree = "<group>"; };
+		F821C81C8E0F760C79062C74 /* ExpressModeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpressModeView.swift; sourceTree = "<group>"; };
+		F94878ADFC901EF2203CBB41 /* GuidedCreationFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GuidedCreationFlow.swift; sourceTree = "<group>"; };
+		FLOATING1234567890ABCD01 /* FloatingToolPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingToolPalette.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B412344F1234567890ABCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09AC262D9E68E1ED7117F5A7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				386E47F645A218D02B860502 /* Paintable3DPreview.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		6109534055214CD30ACEE178 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B41234491234567890ABCDEF = {
+			isa = PBXGroup;
+			children = (
+				B41234541234567890ABCDEF /* SkinCrafter */,
+				B41234531234567890ABCDEF /* Products */,
+				6109534055214CD30ACEE178 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B41234531234567890ABCDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B41234521234567890ABCDEF /* SkinCrafter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B41234541234567890ABCDEF /* SkinCrafter */ = {
+			isa = PBXGroup;
+			children = (
+				B41234551234567890ABCDEF /* SkinCrafterApp.swift */,
+				B41234571234567890ABCDEF /* ContentView.swift */,
+				B41234651234567890ABCD11 /* LaunchScreen.swift */,
+				B41234651234567890ABCD12 /* MainEditorView.swift */,
+				A91B73E856C4F2D7B1028359 /* SkinTemplateSelector.swift */,
+				B41234701234567890MODELS /* Models */,
+				B41234701234567890COMPS /* Components */,
+				B41234701234567890VIEWS /* Views */,
+				B41234701234567890SERVS /* Services */,
+				B41234591234567890ABCDEF /* Assets.xcassets */,
+				B412345E1234567890ABCDEF /* Info.plist */,
+				B412345B1234567890ABCDEF /* Preview Content */,
+				9AA7C4ABE483256FAE8F77A6 /* ImprovedContentView.swift */,
+				F0BE47F92D9AE57A91CEC7E9 /* MaximizedCanvasLayout.swift */,
+				1EB50AD8826EB3A7B641A2BE /* CompactToolSystem.swift */,
+				5217BBF5BF4EA3B772721EBC /* SlidingPanelSystem.swift */,
+				17A163603879E6FB54EE7F26 /* GestureNavigationSystem.swift */,
+				38802767303EBDB584301C04 /* DefaultSkinTemplates.swift */,
+				6508E6FF4A1C4E0E41053910 /* Enhanced3DEditingView.swift */,
+				2E3D4F499EE3CC0B39321EF3 /* Direct3DPaintingSystem.swift */,
+				F821C81C8E0F760C79062C74 /* ExpressModeView.swift */,
+				63042E646ED0AC256DB1C638 /* ExpressCreationModeView.swift */,
+				BDF7829DD8E36AB0E20D9886 /* Views */,
+				09AC262D9E68E1ED7117F5A7 /* Components */,
+			);
+			path = SkinCrafter;
+			sourceTree = "<group>";
+		};
+		B412345B1234567890ABCDEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B412345C1234567890ABCDEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B41234701234567890COMPS /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B41234651234567890ABCD03 /* SkinEditorCanvas.swift */,
+				B41234651234567890ABCD04 /* Skin3DPreview.swift */,
+				B41234651234567890ABCD05 /* EnhancedComponents.swift */,
+				E90DDF1EA0B14766283676FD /* Direct3DPaintableView.swift */,
+				F94878ADFC901EF2203CBB41 /* GuidedCreationFlow.swift */,
+				343DED72A50646B112DB11F6 /* FocusedBodyPartView.swift */,
+				FLOATING1234567890ABCD01 /* FloatingToolPalette.swift */,
+				BODYPART1234567890ABCD01 /* BodyPartPageControl.swift */,
+				430E9371F829356F226F500D /* ExpressGuidedFlow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B41234701234567890MODELS /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B41234651234567890ABCD01 /* MinecraftSkin.swift */,
+				B41234651234567890ABCD02 /* SkinTemplates.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B41234701234567890SERVS /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B41234651234567890ABCD07 /* AdManager.swift */,
+				B41234651234567890ABCD08 /* ExportManager.swift */,
+				B41234651234567890ABCD09 /* EditingSystem.swift */,
+				B41234651234567890ABCD10 /* PurchaseManager.swift */,
+				8ED8DB074EED8CBBFB5ED0F3 /* HapticManager.swift */,
+				01E7A844E277E6F624BE2110 /* AnalyticsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B41234701234567890VIEWS /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B41234651234567890ABCD06 /* ProfessionalEditorView.swift */,
+				F47FA0767B2DA4F1771E3EAB /* ExpressExportView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDF7829DD8E36AB0E20D9886 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A29F712DEA21BD9E2416155F /* TestPaintView.swift */,
+				EF34FBEC8C9A59BCAE3085B5 /* ModeSelectorView.swift */,
+				B975F8ECF3BB7B183C503DA2 /* StudioModeView.swift */,
+				EDBDAFB34B3645BB5FFEF430 /* SettingsView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B41234511234567890ABCDEF /* SkinCrafter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B41234611234567890ABCDEF /* Build configuration list for PBXNativeTarget "SkinCrafter" */;
+			buildPhases = (
+				B412344E1234567890ABCDEF /* Sources */,
+				B412344F1234567890ABCDEF /* Frameworks */,
+				B41234501234567890ABCDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkinCrafter;
+			productName = SkinCrafter;
+			productReference = B41234521234567890ABCDEF /* SkinCrafter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B412344A1234567890ABCDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					B41234511234567890ABCDEF = {
+						CreatedOnToolsVersion = 15.4.0;
+					};
+				};
+			};
+			buildConfigurationList = B412344D1234567890ABCDEF /* Build configuration list for PBXProject "SkinCrafter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B41234491234567890ABCDEF;
+			productRefGroup = B41234531234567890ABCDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B41234511234567890ABCDEF /* SkinCrafter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B41234501234567890ABCDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B412345D1234567890ABCDEF /* Preview Assets.xcassets in Resources */,
+				B412345A1234567890ABCDEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B412344E1234567890ABCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41234581234567890ABCDEF /* ContentView.swift in Sources */,
+				B41234561234567890ABCDEF /* SkinCrafterApp.swift in Sources */,
+				B41234601234567890ABCD01 /* MinecraftSkin.swift in Sources */,
+				B41234601234567890ABCD02 /* SkinTemplates.swift in Sources */,
+				B41234601234567890ABCD03 /* SkinEditorCanvas.swift in Sources */,
+				B41234601234567890ABCD04 /* Skin3DPreview.swift in Sources */,
+				B41234601234567890ABCD05 /* EnhancedComponents.swift in Sources */,
+				B41234601234567890ABCD06 /* ProfessionalEditorView.swift in Sources */,
+				B41234601234567890ABCD07 /* AdManager.swift in Sources */,
+				B41234601234567890ABCD08 /* ExportManager.swift in Sources */,
+				B41234601234567890ABCD09 /* EditingSystem.swift in Sources */,
+				B41234601234567890ABCD10 /* PurchaseManager.swift in Sources */,
+				B41234601234567890ABCD11 /* LaunchScreen.swift in Sources */,
+				B41234601234567890ABCD12 /* MainEditorView.swift in Sources */,
+				F1F334F96D2312EF7D9E8BC5 /* ImprovedContentView.swift in Sources */,
+				3D4EBC716FDD0958BDA16E2F /* MaximizedCanvasLayout.swift in Sources */,
+				D140C2EB57E9A3A4DE15F047 /* CompactToolSystem.swift in Sources */,
+				E734DED140BFC232C666DE87 /* SlidingPanelSystem.swift in Sources */,
+				91699F47711C2A9718917B04 /* GestureNavigationSystem.swift in Sources */,
+				241626BF89B096D06A54DB27 /* DefaultSkinTemplates.swift in Sources */,
+				1A5D727A3C8D74E077298DC5 /* Enhanced3DEditingView.swift in Sources */,
+				B65E53A138E7506AA923C3E9 /* Direct3DPaintingSystem.swift in Sources */,
+				C75F84921A2B6E0D8F9E3C47 /* SkinTemplateSelector.swift in Sources */,
+				905F48DC4C180EAC9E208465 /* HapticManager.swift in Sources */,
+				93EC45DF9C94D0E90FE1AADB /* AnalyticsManager.swift in Sources */,
+				8685FC3BD18DBE38D1FF40DC /* ExpressExportView.swift in Sources */,
+				35E0B52B8CBE45CF9CC4F581 /* Direct3DPaintableView.swift in Sources */,
+				17FB04CB823C2559EEC81A00 /* ExpressModeView.swift in Sources */,
+				5F92CDF433E0D56312E72861 /* ExpressCreationModeView.swift in Sources */,
+				82744A75228D4E4DFAD9CFF3 /* GuidedCreationFlow.swift in Sources */,
+				52708F4260946A66E990C5BA /* FocusedBodyPartView.swift in Sources */,
+				FLOATBUILD1234567890ABC1 /* FloatingToolPalette.swift in Sources */,
+				BODYBUILD1234567890ABCD1 /* BodyPartPageControl.swift in Sources */,
+				BODYPBUILD1234567890ABCD1 /* BodyPart.swift in Sources */,
+				CC499756E37C1EBBA445F933 /* ExpressGuidedFlow.swift in Sources */,
+				DD48CF7462C65540236B176B /* TestPaintView.swift in Sources */,
+				9D18ADF0491A49C5F8F2F2EF /* Paintable3DPreview.swift in Sources */,
+				EE50092CB1DB26BA26BA1E2F /* ModeSelectorView.swift in Sources */,
+				F2E59E014BA32DECBC3E4050 /* StudioModeView.swift in Sources */,
+				D22780CD1BA1800E6B87A682 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B412345F1234567890ABCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U92XZPD65Z;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B41234601234567890ABCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U92XZPD65Z;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B41234621234567890ABCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkinCrafter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkinCrafter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inertu.MySkinCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B41234631234567890ABCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkinCrafter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkinCrafter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inertu.MySkinCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B412344D1234567890ABCDEF /* Build configuration list for PBXProject "SkinCrafter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B412345F1234567890ABCDEF /* Debug */,
+				B41234601234567890ABCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B41234611234567890ABCDEF /* Build configuration list for PBXNativeTarget "SkinCrafter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41234621234567890ABCDEF /* Debug */,
+				B41234631234567890ABCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B412344A1234567890ABCDEF /* Project object */;
+}
